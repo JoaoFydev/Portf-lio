@@ -3,6 +3,10 @@
     flex-direction: column;
     color: var(--text-primary);
 
+    img {
+        border-radius: 24px;
+    }
+
     h1 {
         font-weight: 600;
         font-size: 28px;
@@ -28,6 +32,11 @@
             font-size: 30px;
             line-height: 45px;
             font-style: normal;
+        }
+
+        img {
+            border-radius: 100%;
+            border: 2px solid white;
         }
     }
 }
