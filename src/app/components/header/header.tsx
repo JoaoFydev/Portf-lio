@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "./header.scss";
 
 export function Header(){
     return(
@@ -8,10 +9,10 @@ export function Header(){
               <h2>Web developer</h2>
             </div>
             <Image
-                  src="/vercel.svg"
+                  src="/eu.png"
                   alt="Vercel Logo"
-                  width={100}
-                  height={24}
+                  width={325}
+                  height={340}
                   priority
                 />
       </div>
