@@ -1,6 +1,8 @@
 .header {
     display: flex;
     flex-direction: column;
+    grid-area: header;
+
     color: var(--text-primary);
 
     img {
