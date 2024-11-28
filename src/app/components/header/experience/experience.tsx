@@ -1,5 +1,7 @@
 import { SectionTitle } from "../sectionTitle/section-title"
 
+import "./experience.scss"
+
 export function Experience(){
     return(
         <div className="experience">
